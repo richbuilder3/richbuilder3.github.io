@@ -1,6 +1,10 @@
 body {
-	background-image:url('../images/Brooklyn-Bridge(1).jpg'); 
+	background-image:url('../images/photo2copy.jpg'); 
 	background-repeat:no-repeat;
 	background-position: center;
-	/*no-repeat center center fixed;*/
+	background-size: contain;
+	width: 100%;
+	height: 800px;
+	/*no-repeat center center fixed;
 }
+

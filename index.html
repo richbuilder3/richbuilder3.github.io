@@ -4,10 +4,42 @@
 	<meta charset="UTF-8">
 	<title>Rich's Portfolio</title>
 	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/bootstrap.css">
+	<script "text/javascript" src='javascripts/jquery.js'></script>
+	
+	<script type="text/javascript" src="javascripts/bootstrap.js"></script>
+	
+	<script type="text/javascript">
+		$(function(){
+			$("#btn-show-modal").click(function(e){
+				e.preventDefault();
+
+				$("#dialog-example").modal('show');
+			});
+		});
+		</script>
+
 </head>
 <body>
-	<h1>Richard Grundy</h1>
-	<h2>richard.c.grundy@gmail.com</h2>
+	<Div class="topthird">
+
+	</div>	
+<button class="btn btn-primary"><a href="#" id="btn-show-modal">More Info</a></button>
+
+<div class="modal fade" id="dialog-example">
+	<div class="modal-header">
+		<h1>Richard Grundy</h1>
+	</div>
+
+	<div class="modal-body">
+		<h2>Sales and Business development Professional turned Web Developer</h2>
+		<p>Richard.c.grundy@gmail.com</p>
+	</div>
+
+	<div class="modal-footer">
+		<a href="#" data-dismiss="modal" class="btn">Close</a>
+	</div>
+</div>
 
 </body>
 </html>
