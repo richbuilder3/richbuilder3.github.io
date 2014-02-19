@@ -2,48 +2,66 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Rich's Portfolio</title>
-	<link rel="stylesheet" href="stylesheets/styles.css">
-	<link rel="stylesheet" href="stylesheets/bootstrap.css">
-	<script "text/javascript" src='javascripts/jquery.js'></script>
-	
-	<script type="text/javascript" src="javascripts/bootstrap.js"></script>
-	
-	<script type="text/javascript">
-		$(function(){
-			$("#btn-show-modal").click(function(e){
-				e.preventDefault();
-
-				$("#dialog-example").modal('show');
-			});
-		});
-		</script>
+	<title>Profile</title>
+<link rel="stylesheet" href="stylesheets/bootstrap.css">
+<link rel="stylesheet" href="stylesheets/styles.css">
+<script type="text/javascript" src="javascripts/jquery.js"></script>
+<script type="text/javascript" src="javascripts/bootstrap.js"></script>
 
 </head>
-<body>
-	<Div class="topthird">
+<body data-spy="scroll" data-target="navbar navbar-inverse navbar-fixed-top">
 
-	</div>	
-<button class="btn btn-primary"><a href="#" id="btn-show-modal">More Info</a></button>
+<!-- navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+  	 <button type="button" class="btn btn-default btn-lg btn-lg"><a href="#section1">About</a></button>
+  	 <button type="button" class="btn btn-default btn-lg btn-lg"><a href="#section2">Portfolio</a></button>
+  	 <button type="button" class="btn btn-default btn-lg btn-lg"><a href="#section3">Resume</a></button>
+  	 <button type="button" class="btn btn-default btn-lg btn-lg"><a href="#section4">Contact</a></button>
+  </div>
+</nav>
 
-<div class="modal fade" id="dialog-example">
-	<div class="modal-header">
-		<h1>Richard Grundy</h1>
+<div class="container">
+	<div id="section1">
+		<div id="annouce">
+			<H2>Richard Grundy </H2>
+			<h3>Full Stack Web Developer</h3>
+			<img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/219/0fc/30aeb85.jpg" alt="me" class="img-thumbnail">
+		</div>
+
+
 	</div>
 
-	<div class="modal-body">
-		<h2>Sales and Business development Professional turned Web Developer</h2>
-		<p>Richard.c.grundy@gmail.com</p>
+
+<!-- <div class="container"> -->
+	<div id="section2">
+
+<img src="/images/vitriol.png" alt="Vitriol" class="img-thumbnail">
+
+	</div>
+<!-- </div> -->
+
+<!-- <div class="container"> -->
+	<div id="section3">
+
+
+
 	</div>
 
-	<div class="modal-footer">
-		<a href="#" data-dismiss="modal" class="btn">Close</a>
-	</div>
-</div>
+<!-- <div class="container"> -->
+	<div id="section4">
+		<h5>Richard.c.grundy@gmail.com</h5>
+<a href="https://github.com/richbuilder3/" class="btn btn-default btn-lg" role="button">Github</a>
 
+<a href="http://www.linkedin.com/pub/richard-grundy/8/3/744/" class="btn btn-default btn-lg " role="button">LinkedIn</a>
+
+	</div>
+
+<div>
+
+
+	<script>
+	$(".navbar").scrollspy();
+</script>
 </body>
 </html>
-
-
-
-
