@@ -19,6 +19,7 @@ height: 800px;
 padding-bottom: -50px;
 margin-bottom: -50px;
 text-align: center;
+color: #842F2F;
 }
 
 
@@ -44,7 +45,7 @@ background-repeat:no-repeat;
 	background-size: contain;
 	width: 100%;
 	height: 800px;
-	padding-bottom: -50px;
+	/*padding-bottom: -50px;*/
 	margin-top: -220px;
 
 
@@ -60,8 +61,8 @@ background-repeat:no-repeat;
 	width: 100%;
 	height: 800px;
 	padding-top: -70px;
-	margin-top: -220px;
-
+	margin-top: -200px;
+	color: #842F2F;
 
 
 }
