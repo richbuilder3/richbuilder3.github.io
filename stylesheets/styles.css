@@ -10,7 +10,7 @@ body { padding-top: 60px;
 
 
 #section1 {
-	background: url('http://bonds-gallery.com/wp-content/uploads/2013/12/New-York-City-Skyline-Wallpaper-Black-And-White.jpg');
+	/*background: url('http://bonds-gallery.com/wp-content/uploads/2013/12/New-York-City-Skyline-Wallpaper-Black-And-White.jpg');*/
 	background-repeat:no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -19,7 +19,8 @@ body { padding-top: 60px;
 	/*padding-bottom: -50px;*/
 	/*margin-bottom: -50px;*/
 	text-align: center;
-	color: #842F2F;
+	/*color: #842F2F;*/
+	/*color: white;*/
 }
 
 
