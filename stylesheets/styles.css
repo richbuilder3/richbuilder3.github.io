@@ -3,10 +3,10 @@ body { padding-top: 60px;
 
 }
 
-#announce {
+/*#announce {
 	text-align: center;
 
-}
+}*/
 
 
 #section1 {
@@ -19,6 +19,7 @@ body { padding-top: 60px;
 	/*padding-bottom: -50px;*/
 	/*margin-bottom: -50px;*/
 	text-align: center;
+	background-color: lightblue;
 	/*color: #842F2F;*/
 	/*color: white;*/
 }
@@ -27,12 +28,13 @@ body { padding-top: 60px;
 
 
 #section2 {
-	background: url('http://wallpaperswa.com/thumbnails/detail/20130105/black%20and%20white%20brooklyn%20bridge%20historical%20nostalgia%20photo%20camera%201955%201920x1080%20wallpaper_wallpaperswa.com_68.jpg');
+	/*background: url('http://wallpaperswa.com/thumbnails/detail/20130105/black%20and%20white%20brooklyn%20bridge%20historical%20nostalgia%20photo%20camera%201955%201920x1080%20wallpaper_wallpaperswa.com_68.jpg');*/
 	background-repeat:no-repeat;
 	background-position: center;
 	background-size: contain;
 	width: 100%;
 	height: 800px;
+	/*background-color: red;*/
 	/*padding-top: -70px;*/
 	/*margin-top: -200px;*/
 
@@ -67,7 +69,7 @@ body { padding-top: 60px;
 }
 
 #resume {
-	
-
+width: 100%;
+height: 100%;
 }
 
