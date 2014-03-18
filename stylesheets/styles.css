@@ -16,6 +16,10 @@ float: right;
 	/*float: left;*/
 }
 
+#skills {
+	width: 50%;
+}
+
 #section1 {
 	/*background: url('http://bonds-gallery.com/wp-content/uploads/2013/12/New-York-City-Skyline-Wallpaper-Black-And-White.jpg');*/
 	/*background-repeat:no-repeat;*/
@@ -50,7 +54,6 @@ float: right;
 	/*padding-top: -70px;*/
 	/*margin-top: -200px;*/
 	border-radius: 1.5em;
-	/*background-color: lightblue;*/
 	background-color: #D74B4B;
 }
 
