@@ -2,6 +2,7 @@ body { padding-top: 40px;
 /*background-color: black;*/
 background-color: #DCDDD8;
 color: white;
+/*text-shadow:1px 1px gray;*/
 
 }
 
@@ -65,7 +66,7 @@ float: right;
 	/*padding-top: -70px;
 	margin-top: -200px;*/
 	color: #842F2F;
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 	text-align: center;
 }
 
