@@ -12,7 +12,7 @@ float: right;
 }
 
 #about {
-	width: 50%;
+	width: 45%;
 	/*float: left;*/
 }
 
@@ -21,7 +21,6 @@ float: right;
 }
 
 #section1 {
-	/*background: url('http://bonds-gallery.com/wp-content/uploads/2013/12/New-York-City-Skyline-Wallpaper-Black-And-White.jpg');*/
 	/*background-repeat:no-repeat;*/
 	/*background-position: center;*/
 	/*background-size: contain;*/
@@ -31,8 +30,6 @@ float: right;
 	/*margin-bottom: -50px;*/
 	text-align: center;
 	background-color: #354B5E;
-	/*color: #842F2F;*/
-	/*color: white;*/
 	border-radius: 1.5em;
 }
 
@@ -44,32 +41,32 @@ float: right;
 
 
 #section2 {
-	/*background: url('http://wallpaperswa.com/thumbnails/detail/20130105/black%20and%20white%20brooklyn%20bridge%20historical%20nostalgia%20photo%20camera%201955%201920x1080%20wallpaper_wallpaperswa.com_68.jpg');*/
-	background-repeat:no-repeat;
+	/*background-repeat:no-repeat;
 	background-position: center;
-	background-size: contain;
+	background-size: contain;*/
 	width: 100%;
-	height: 600px;
+	/*height: 600px;*/
 	/*background-color: red;*/
 	/*padding-top: -70px;*/
 	/*margin-top: -200px;*/
+	margin-bottom: 1em;
 	border-radius: 1.5em;
 	background-color: #D74B4B;
 }
 
 
 #section4 {
-	/*background: url('http://wallpaperswa.com/thumbnails/detail/20130105/black%20and%20white%20brooklyn%20bridge%20historical%20nostalgia%20photo%20camera%201955%201920x1080%20wallpaper_wallpaperswa.com_68.jpg');*/
-	background-repeat:no-repeat;
 	background-position: center;
 	background-size: contain;
 	width: 100%;
-	height: 500px;
+	/*height: 500px;*/
 	background-color: #475F77;
 	border-radius: 1em;
 	/*padding-top: -70px;
 	margin-top: -200px;*/
 	color: #842F2F;
+	margin-bottom: 1em;
+	text-align: center;
 }
 
 #resume {

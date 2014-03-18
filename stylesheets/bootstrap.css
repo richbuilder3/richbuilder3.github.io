@@ -5230,6 +5230,8 @@ a.list-group-item.active > .badge,
   line-height: 2.1428571435;
   color: inherit;
   background-color: #eeeeee;
+  width: 70%;
+  /*added width*/
 }
 
 .jumbotron h1,
@@ -6330,6 +6332,7 @@ button.close {
 
 .carousel {
   position: relative;
+ /* width: 99%;*/
 }
 
 .carousel-inner {
