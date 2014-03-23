@@ -1,5 +1,8 @@
 body { padding-top: 40px; 
 /*background-color: black;*/
+/*background: url('http://www.pageresource.com/wallpapers/wallpaper/texture-ground-back-white-textured-textureimages_1175896.jpg');*/
+background-repeat:no-repeat;
+background-size: cover;
 background-color: #DCDDD8;
 color: white;
 /*text-shadow:1px 1px gray;*/
@@ -7,8 +10,9 @@ color: white;
 }
 
 #pic {
-width: 50%;
+width: 60%;
 float: right;
+border-radius: 5px;
 }
 
 #about {
@@ -26,6 +30,7 @@ float: right;
 	border-radius: 1.5em;
 	padding: 10px;
 	margin: 1em;
+	text-align: center;
 }
 
 #section0 {
@@ -39,8 +44,10 @@ float: right;
 	width: 100%;
 	margin: 1em;
 	border-radius: 1.5em;
-	background-color: #D74B4B;
+	background-color: #354B5E;
+	/*background-color: #D74B4B;*/
 	padding: 10px;
+	text-align: center;
 }
 
 
@@ -48,7 +55,8 @@ float: right;
 	background-position: center;
 	background-size: contain;
 	width: 100%;
-	background-color: #475F77;
+	background-color: #354B5E;
+	/*background-color: #475F77;*/
 	border-radius: 1em;
 	color: #842F2F;
 	margin: 1em;
