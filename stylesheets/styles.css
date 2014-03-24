@@ -21,7 +21,9 @@ border-radius: 5px;
 }
 
 #skills {
-	width: 50%;
+	/*width: 50%;*/
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 #section1 {
