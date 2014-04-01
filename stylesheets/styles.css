@@ -1,10 +1,12 @@
-body { padding-top: 40px; 
+body { /*padding-top: 40px; */
 /*background-color: black;*/
 /*background: url('http://www.pageresource.com/wallpapers/wallpaper/texture-ground-back-white-textured-textureimages_1175896.jpg');*/
-background-repeat:no-repeat;
-background-size: cover;
+/*background-repeat:no-repeat;*/
+/*background-size: cover;*/
 background-color: #DCDDD8;
-color: white;
+/*background-image: url('../assets/crossword.png');*/
+/*color: white;*/
+color: black;
 /*text-shadow:1px 1px gray;*/
 
 }
@@ -29,6 +31,7 @@ border-radius: 5px;
 #section1 {
 	width: 100%;
 	background-color: #354B5E;
+	/*background: url('crossword.png');*/
 	border-radius: 1.5em;
 	padding: 10px;
 	margin: 1em;
